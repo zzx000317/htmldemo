@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    // 规则：单词字符，6~12
+
+    var reg = /^\w{6,12}$/;
+
+    var str = "abcccc";
+
+    var flag = reg.test(str);//.test()方法可判断定义的字符串是否符合定义的正则表达式，是则返回TRUE，否则返回false
+    alert(flag);
+</script>
+</body>
+</html>

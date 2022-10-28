@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="post" action="#">
+    <input type="hidden" name="id" value="1234"><!--定义隐藏的输入字段-->
+  <label for="username">用户名：</label><!--使用label标签可使“用户名“与后边的文本框产生关联，点击”用户名“也可选中文本框-->
+<input type="text" name="username" id="username"><br>
+  <label for="password">密码：</label>
+  <input type="password" name="password" id="password"><br>
+    性别：<input type="radio"name="gender" value="male">男<!--name值一样可达到互斥的效果,使用value可定义提交的值-->
+         <input type="radio"name="gender" value="female">女<br>
+    爱好：<input type="checkbox"name="hobby" value="1">唱
+    <input type="checkbox"name="hobby" value="2">跳
+    <input type="checkbox"name="hobby" value="3">rap
+    <input type="checkbox"name="hobby" value="4">篮球<br>
+    上传头像：<input type="file"><br>
+    城市：<select name="city" ><!--下拉菜单-->
+    <option value="beijing">北京</option><!--提交的数据为英文数据-->
+    <option value="shanghai">上海</option>
+    <option value="shenzhen">深圳</option>
+</select>
+    <br>
+    个人描述：
+    <textarea name="desc" ></textarea>
+  <input type="submit" value="免费注册">
+    <input type="reset" value="重置">
+    <input type="button" value="一个按钮">
+
+
+
+</form>
+</body>
+</html>

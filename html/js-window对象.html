@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  //alert:window.可省略
+  window.alert("aaa")
+  alert("bbb")
+//confirm：确认对话框,点击确认按钮返回TRUE，点取消返回false
+  var flag=confirm("确定删除？")
+  if (flag){
+//删除逻辑
+  }
+  //定时器
+  /*
+  * setTimeout(function,毫秒值)：在一定时间后执行一个function，只执行一次
+  *setInterval(function,毫秒值):在一定时间后执行一个function，循环执行
+  * */
+  function f()
+  {
+    alert("hehe")
+  }
+  setTimeout(f,3000)
+  setInterval(f,2000)
+
+
+</script>
+
+</body>
+</html>
